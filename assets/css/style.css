@@ -1,0 +1,54 @@
+body{
+    text-align: center;
+    background-image: url("https://thumbs.dreamstime.com/b/abstract-prism-triangles-geometric-background-d-made-prisms-trianglular-shapes-76500263.jpg");
+}
+.btn.btn-light {
+    height: 150px;
+    width: 150px;
+}
+
+.container {
+    width: 700px;
+    
+}
+
+.computer-number, .score-board {
+    border: 2px solid black;
+    background-color: teal;
+    color: white;
+    margin-bottom: 5px;
+    height: 100px;
+} 
+
+.computer-number {
+    margin-right: 5px;
+    margin-left: auto;
+}
+
+.score-board {
+    margin-right: auto;
+}
+
+.title {
+    border: 2px solid   black;
+    background-color: teal;
+    color: white;
+    
+    margin-top: 10px;
+    
+}
+.instructions {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border: 2px solid black;
+    background-color: white;
+}
+
+.total {
+    margin-top: 10px;
+    border: 2px solid black;
+    background-color: teal;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
