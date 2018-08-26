@@ -49,6 +49,10 @@ body{
     border: 2px solid black;
     background-color: teal;
     color: white;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 40px;
+
+}
+.reset {
+    margin-top: 10px;
+    
 }

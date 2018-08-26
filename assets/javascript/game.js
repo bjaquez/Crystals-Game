@@ -60,7 +60,14 @@ function checkWin(){
     }
 }
 
-
+$(".reset").click(function(){
+    resetGame();
+    wins = 0;
+    losses = 0;
+    $(".you").text('');
+    $(".losses").text(losses);
+    $(".wins").text(wins);
+})
 
 function randomNumber (max, min){
     return [Math.floor(Math.random() * (max - min))+min];
